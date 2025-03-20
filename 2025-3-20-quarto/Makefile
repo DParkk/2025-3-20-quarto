@@ -1,10 +1,10 @@
 render:
-	quarto render
-	touch docs/.nojekyll
+  quarto render
+  touch docs/.nojekyll
 
 clean:
-	rm -rf _site
-	rm -rf docs
+  rm -rf _site
+  rm -rf docs
 
 
 	
